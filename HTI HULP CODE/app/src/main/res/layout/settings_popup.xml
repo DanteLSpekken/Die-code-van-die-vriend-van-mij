@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="656px"
+    android:layout_height="893px"
+    android:background="@drawable/popup_bg"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="5px"
+        android:paddingTop="40dp"
+        android:background="#00000000"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:paddingLeft="30px"
+            android:layout_width="400px"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Type"
+            android:background="#00000000"
+            android:id="@+id/textView13" />
+
+        <ToggleButton
+            android:layout_width="227px"
+            android:layout_height="88px"
+            android:id="@+id/day_or_nightSwitch"
+            android:checked="true"
+            android:textColor="#00000000"
+            android:background="@drawable/day_night_switch"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Save"
+        android:layout_marginRight="26px"
+        android:gravity="center"
+        android:textColor="@color/MainWhite"
+        android:id="@+id/saveButton"
+        android:background="@drawable/save_cancelbtn"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Configure Switch"
+        android:background="#00000000"
+        android:textColor="@color/MainDarkGrey"
+        android:fontFamily="sans-serif-bold"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:id="@+id/title" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/infoText"
+        android:background="@color/Transparent" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/typeText" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/switchText" />
+
+    <TextView
+        android:layout_width="249px"
+        android:layout_height="99px"
+        android:text="Delete"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:textColor="@color/MainWhite"
+        android:id="@+id/deleteButton"
+        android:visibility="invisible"
+        android:background="@drawable/save_cancelbtn"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42px"
+        android:layout_marginRight="5px"
+        android:background="#00000000"
+        android:layout_marginTop="10dp"
+
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="249px"
+            android:layout_height="99px"
+            android:text="Cancel"
+            android:layout_marginLeft="26px"
+            android:gravity="center"
+            android:textColor="@color/MainWhite"
+            android:id="@+id/cancelButton"
+            android:background="@drawable/save_cancelbtn"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="5px"
+        android:paddingTop="10dp"
+        android:background="#00000000"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5px"
+            android:layout_marginRight="5px"
+            android:background="#00000000"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:paddingLeft="30px"
+                android:layout_width="500px"
+                android:layout_height="wrap_content"
+                android:text="Start       -:-"
+                android:textSize="25dp"
+                android:background="#00000000"
+                android:id="@+id/startTime" />
+
+            <TextView
+                android:layout_width="114px"
+                android:layout_height="80px"
+                android:text="Set"
+                android:gravity="center"
+                android:textColor="@color/MainWhite"
+                android:id="@+id/setBtnstart"
+                android:background="@drawable/setbtn"/>
+        </LinearLayout>
+
+        <TextView
+            android:paddingLeft="30px"
+            android:layout_width="500px"
+            android:layout_height="wrap_content"
+            android:text="End         -:-"
+            android:textSize="25dp"
+            android:background="#00000000"
+            android:id="@+id/endTime" />
+
+        <TextView
+            android:layout_width="114px"
+            android:layout_height="80px"
+            android:text="Set"
+            android:gravity="center"
+            android:textColor="@color/MainWhite"
+            android:id="@+id/setBtnend"
+            android:background="@drawable/setbtn"/>
+
+    </LinearLayout>
+
+</LinearLayout>
